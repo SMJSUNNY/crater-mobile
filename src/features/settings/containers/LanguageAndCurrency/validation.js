@@ -1,0 +1,24 @@
+import { getError } from "@/constants";
+
+export const validate = (values) => {
+    const errors = {};
+    const {
+        currency,
+        language,
+    } = values;
+
+    errors.currency = getError(
+        currency,
+        ['requiredField'],
+        { fieldName: 'Currency' },
+    );
+
+    errors.language = getError(
+        language,
+        ['requiredField'],
+        { fieldName: 'Language' },
+    );
+
+
+    return errors;
+};

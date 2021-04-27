@@ -1,0 +1,37 @@
+{
+    "expo": {
+        "name": "Crater Invoice",
+        "slug": "crater",
+        "privacy": "public",
+        "platforms": ["ios", "android", "web"],
+        "version": "4.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#F9FBFF"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.craterapp.app",
+            "buildNumber": "8"
+        },
+        "android": {
+            "package": "com.craterapp.app",
+            "versionCode": 12,
+            "softwareKeyboardLayoutMode": "pan"
+        },
+        "description": "",
+        "androidStatusBar": {
+            "backgroundColor": "#F9FBFF",
+            "barStyle": "dark-content",
+            "animated": true,
+            "translucent": true
+        }
+    }
+}
